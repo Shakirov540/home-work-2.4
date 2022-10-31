@@ -20,6 +20,10 @@ import Foundation
 
 var product1 = product(name: "Coke", cost: 50, amount: 2)
 var product2 = product(name: "doner", cost: 140, amount: 2)
+var aiba = Customer(nameofCustomer: "Aibek")
+aiba.addToBag(product: product1)
+aiba.addToBag(product: product2)
+aiba.issuanceOfCheck()
 
 //casir.addToBag(product: product1)
 //casir.addToBag(product: product2)
